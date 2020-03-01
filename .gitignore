@@ -3,6 +3,10 @@
 # Created by https://www.gitignore.io/api/cmake,xcode
 # Edit at https://www.gitignore.io/?templates=cmake,xcode
 
+### Project Specifics ###
+Debug
+Membot.build
+
 ### CMake ###
 CMakeLists.txt.user
 CMakeCache.txt
