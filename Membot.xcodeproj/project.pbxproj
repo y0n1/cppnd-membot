@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		286BED7B08654868A64F60F5 /* ZERO_CHECK */ = {
+		3A53D623011B429C84EA7AC0 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FE3D3B46BA164DB7BAA2EE18 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2F9F87EAE1EA4D928322DB92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				0039B83B4CA54330AACDA05D /* CMake Rules */,
+				49DDCC49CD834E4DBF387C95 /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		38EB59E602DB48A781DCFCEE /* ALL_BUILD */ = {
+		A8365045E0AE4FC4A80857E3 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F07F06DB0AE644329090BAE9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = F830216B0B2D4553A98C22A5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				D6DEF7D251C546649CA382B2 /* CMake Rules */,
+				3613580412644C3A8383E3FC /* CMake Rules */,
 			);
 			dependencies = (
-				EECDF3D5662D454C96AD2406 /* PBXTargetDependency */,
-				9FDD2EFB35A14CEE8870F221 /* PBXTargetDependency */,
+				6D3A9F57B28742F19629477D /* PBXTargetDependency */,
+				98B2E6FCFD804C588D3C87A8 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,187 +34,196 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		35895E42B3644308A605923F /* /Users/y0n1/Projects/cppnd-membot/src/graphedge.cpp */ = {isa = PBXBuildFile; fileRef = 4D4F7783A20B445A940C4034 /* /Users/y0n1/Projects/cppnd-membot/src/graphedge.cpp */; };
-		68B478D8E0BD45299C8F96C5 /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 65AC37895F674AAF8E5DE53B /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */; };
-		A06612403F584E818FD076D3 /* /Users/y0n1/Projects/cppnd-membot/src/graphnode.cpp */ = {isa = PBXBuildFile; fileRef = F9CB1DAA5B084639A9FE037E /* /Users/y0n1/Projects/cppnd-membot/src/graphnode.cpp */; };
-		B90C1794CA8C4480A0B75798 /* /Users/y0n1/Projects/cppnd-membot/src/chatbot.cpp */ = {isa = PBXBuildFile; fileRef = C140FA57DE5B49F982FB42DE /* /Users/y0n1/Projects/cppnd-membot/src/chatbot.cpp */; };
-		E5352B43134E4D9F9ACAB882 /* /Users/y0n1/Projects/cppnd-membot/src/chatgui.cpp */ = {isa = PBXBuildFile; fileRef = 08C1D3A9BD654E16819ED784 /* /Users/y0n1/Projects/cppnd-membot/src/chatgui.cpp */; };
-		F3A19623881D422FAFBFF2EA /* /Users/y0n1/Projects/cppnd-membot/src/chatlogic.cpp */ = {isa = PBXBuildFile; fileRef = D4A105B85C824B96B6EBF219 /* /Users/y0n1/Projects/cppnd-membot/src/chatlogic.cpp */; };
+		224D5A5EBBB9461DB3A909CB /* chatgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59CCE1DFF92A44A1827DB337 /* chatgui.cpp */; };
+		53D5D5C6A6DC422180EB0D9E /* graphedge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60D77E35422143719CA48C7C /* graphedge.cpp */; };
+		5B7FFA1EA1D14F57B05E69E6 /* chatbot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 127502C9B18A426580C8ABFF /* chatbot.cpp */; };
+		5FB7F70AB0D348CDBE388DB4 /* chatlogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 390C3A433CC4440CB4A0786F /* chatlogic.cpp */; };
+		6C800675D7AA4D029F41EAA5 /* graphnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCB24D840784FC79B7B5285 /* graphnode.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		0FCE1E090ABC4A7E99318F92 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		9297632AA7CB441D99033A9A /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		BDC90CED94344DBEAF07D8D6 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		E3904391836445DCA6D0049E /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXContainerItemProxy section */
-		031A2B9111404AF98B2A325A /* PBXContainerItemProxy */ = {
+		5FAD960BDAB140608A09F6C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85DA75369B3B43C49FB623A0 /* Project object */;
+			containerPortal = 14C58236698F43BB94EAFF3A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 286BED7B08654868A64F60F5;
+			remoteGlobalIDString = 3A53D623011B429C84EA7AC0;
 			remoteInfo = ZERO_CHECK;
 		};
-		C77DCD43109F4B17B87DB431 /* PBXContainerItemProxy */ = {
+		C8DF5074FE854DFCB7307CC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85DA75369B3B43C49FB623A0 /* Project object */;
+			containerPortal = 14C58236698F43BB94EAFF3A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 952F5D958EB34855AB71CCAB;
+			remoteGlobalIDString = 0D40F3C1A7C643C5A0A9BFF5;
 			remoteInfo = membot;
 		};
-		F13EE9E7E6CE4FCFB6234DEF /* PBXContainerItemProxy */ = {
+		ED174EEA360C40BFB7A7B1EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85DA75369B3B43C49FB623A0 /* Project object */;
+			containerPortal = 14C58236698F43BB94EAFF3A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 286BED7B08654868A64F60F5;
+			remoteGlobalIDString = 3A53D623011B429C84EA7AC0;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08C1D3A9BD654E16819ED784 /* /Users/y0n1/Projects/cppnd-membot/src/chatgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatgui.cpp; path = src/chatgui.cpp; sourceTree = SOURCE_ROOT; };
-		1AF7A5E17CA04068BC52BDE4 /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4D4F7783A20B445A940C4034 /* /Users/y0n1/Projects/cppnd-membot/src/graphedge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphedge.cpp; path = src/graphedge.cpp; sourceTree = SOURCE_ROOT; };
-		65AC37895F674AAF8E5DE53B /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		91FD7FB822AE43C6A0EBBB05 /* membot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = membot; sourceTree = BUILT_PRODUCTS_DIR; };
-		C140FA57DE5B49F982FB42DE /* /Users/y0n1/Projects/cppnd-membot/src/chatbot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatbot.cpp; path = src/chatbot.cpp; sourceTree = SOURCE_ROOT; };
-		D4A105B85C824B96B6EBF219 /* /Users/y0n1/Projects/cppnd-membot/src/chatlogic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatlogic.cpp; path = src/chatlogic.cpp; sourceTree = SOURCE_ROOT; };
-		F9CB1DAA5B084639A9FE037E /* /Users/y0n1/Projects/cppnd-membot/src/graphnode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphnode.cpp; path = src/graphnode.cpp; sourceTree = SOURCE_ROOT; };
+		127502C9B18A426580C8ABFF /* chatbot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatbot.cpp; path = src/chatbot.cpp; sourceTree = SOURCE_ROOT; };
+		29C6D9DA7FE746EB91DEAFD3 /* membot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = membot; sourceTree = BUILT_PRODUCTS_DIR; };
+		390C3A433CC4440CB4A0786F /* chatlogic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatlogic.cpp; path = src/chatlogic.cpp; sourceTree = SOURCE_ROOT; };
+		59CCE1DFF92A44A1827DB337 /* chatgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chatgui.cpp; path = src/chatgui.cpp; sourceTree = SOURCE_ROOT; };
+		60D77E35422143719CA48C7C /* graphedge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphedge.cpp; path = src/graphedge.cpp; sourceTree = SOURCE_ROOT; };
+		ACCB24D840784FC79B7B5285 /* graphnode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphnode.cpp; path = src/graphnode.cpp; sourceTree = SOURCE_ROOT; };
+		C1E0D60236544DB09193424E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DA89B884CF214D509967B8A5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2B74407240C79B800DDE709 /* chatbot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatbot.h; path = src/chatbot.h; sourceTree = "<group>"; };
+		E2B74408240C79B800DDE709 /* graphedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphedge.h; path = src/graphedge.h; sourceTree = "<group>"; };
+		E2B74409240C79B800DDE709 /* chatlogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatlogic.h; path = src/chatlogic.h; sourceTree = "<group>"; };
+		E2B7440A240C79B800DDE709 /* graphnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphnode.h; path = src/graphnode.h; sourceTree = "<group>"; };
+		E2B7440B240C79B800DDE709 /* chatgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatgui.h; path = src/chatgui.h; sourceTree = "<group>"; };
+		E2B7440F240C7A1900DDE709 /* answergraph.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = answergraph.txt; path = src/answergraph.txt; sourceTree = "<group>"; };
+		E2B74411240C7A6B00DDE709 /* chatbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatbot.png; path = images/chatbot.png; sourceTree = "<group>"; };
+		E2B74412240C7A6B00DDE709 /* sf_bridge_inner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sf_bridge_inner.jpg; path = images/sf_bridge_inner.jpg; sourceTree = "<group>"; };
+		E2B74413240C7A6B00DDE709 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = images/user.png; sourceTree = "<group>"; };
+		E2B74414240C7A6B00DDE709 /* sf_bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sf_bridge.jpg; path = images/sf_bridge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		188C334DC2F3438891ADD298 /* Source Files */ = {
+		224E1196022A44F59D0286E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C140FA57DE5B49F982FB42DE /* /Users/y0n1/Projects/cppnd-membot/src/chatbot.cpp */,
-				08C1D3A9BD654E16819ED784 /* /Users/y0n1/Projects/cppnd-membot/src/chatgui.cpp */,
-				D4A105B85C824B96B6EBF219 /* /Users/y0n1/Projects/cppnd-membot/src/chatlogic.cpp */,
-				4D4F7783A20B445A940C4034 /* /Users/y0n1/Projects/cppnd-membot/src/graphedge.cpp */,
-				F9CB1DAA5B084639A9FE037E /* /Users/y0n1/Projects/cppnd-membot/src/graphnode.cpp */,
+				29C6D9DA7FE746EB91DEAFD3 /* membot */,
 			);
-			name = "Source Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		78043678B09E444E92DB9BC1 /* membot */ = {
+		4CE0198397BD447B87BB4F30 /* membot */ = {
 			isa = PBXGroup;
 			children = (
-				188C334DC2F3438891ADD298 /* Source Files */,
-				65AC37895F674AAF8E5DE53B /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */,
+				E2B7440D240C79D800DDE709 /* Resources */,
+				E2B74406240C795000DDE709 /* Headers */,
+				7811002B5E8F4A269FD880AA /* Source Files */,
+				DA89B884CF214D509967B8A5 /* CMakeLists.txt */,
 			);
 			name = membot;
 			sourceTree = "<group>";
 		};
-		7EEF17D818EA403FA8E6C160 = {
+		7811002B5E8F4A269FD880AA /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				78043678B09E444E92DB9BC1 /* membot */,
-				CEF52ADE145F4368AA374A95 /* ALL_BUILD */,
-				ECEB0A8291614AC2BB6A4EA2 /* Products */,
+				127502C9B18A426580C8ABFF /* chatbot.cpp */,
+				59CCE1DFF92A44A1827DB337 /* chatgui.cpp */,
+				390C3A433CC4440CB4A0786F /* chatlogic.cpp */,
+				60D77E35422143719CA48C7C /* graphedge.cpp */,
+				ACCB24D840784FC79B7B5285 /* graphnode.cpp */,
 			);
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		CEF52ADE145F4368AA374A95 /* ALL_BUILD */ = {
+		A049E4C2CA6D4A0890CE964D /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				DF9339AB26B24C859B9BA2B7 /* CMake Rules */,
-				1AF7A5E17CA04068BC52BDE4 /* /Users/y0n1/Projects/cppnd-membot/CMakeLists.txt */,
+				A397ECF1DB0943938F87F2C1 /* CMake Rules */,
+				C1E0D60236544DB09193424E /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		DF9339AB26B24C859B9BA2B7 /* CMake Rules */ = {
+		A397ECF1DB0943938F87F2C1 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		ECEB0A8291614AC2BB6A4EA2 /* Products */ = {
+		B4FCBBA795574F519941714F = {
 			isa = PBXGroup;
 			children = (
-				91FD7FB822AE43C6A0EBBB05 /* membot */,
+				4CE0198397BD447B87BB4F30 /* membot */,
+				A049E4C2CA6D4A0890CE964D /* ALL_BUILD */,
+				224E1196022A44F59D0286E4 /* Products */,
 			);
-			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B74406240C795000DDE709 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E2B74407240C79B800DDE709 /* chatbot.h */,
+				E2B7440B240C79B800DDE709 /* chatgui.h */,
+				E2B74409240C79B800DDE709 /* chatlogic.h */,
+				E2B74408240C79B800DDE709 /* graphedge.h */,
+				E2B7440A240C79B800DDE709 /* graphnode.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		E2B7440D240C79D800DDE709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2B74410240C7A2A00DDE709 /* Images */,
+				E2B7440F240C7A1900DDE709 /* answergraph.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2B74410240C7A2A00DDE709 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2B74411240C7A6B00DDE709 /* chatbot.png */,
+				E2B74412240C7A6B00DDE709 /* sf_bridge_inner.jpg */,
+				E2B74414240C7A6B00DDE709 /* sf_bridge.jpg */,
+				E2B74413240C7A6B00DDE709 /* user.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		952F5D958EB34855AB71CCAB /* membot */ = {
+		0D40F3C1A7C643C5A0A9BFF5 /* membot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2928FE69DB7445DCB5F47CBF /* Build configuration list for PBXNativeTarget "membot" */;
+			buildConfigurationList = 9BFF73F7C3944CFC9E044E45 /* Build configuration list for PBXNativeTarget "membot" */;
 			buildPhases = (
-				C5B5DB2098894EEF9ACA3CE3 /* Sources */,
+				B7184C15DE3C4C9A96B5BF44 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59D1DBF7DF294E7A8A407F39 /* PBXTargetDependency */,
+				35BA80DEBB6D4DBEAC4E4674 /* PBXTargetDependency */,
 			);
 			name = membot;
 			productName = membot;
-			productReference = 91FD7FB822AE43C6A0EBBB05 /* membot */;
+			productReference = 29C6D9DA7FE746EB91DEAFD3 /* membot */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85DA75369B3B43C49FB623A0 /* Project object */ = {
+		14C58236698F43BB94EAFF3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 			};
-			buildConfigurationList = 92E6584DBE244425A8B2FE59 /* Build configuration list for PBXProject "Membot" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				BDC90CED94344DBEAF07D8D6 /* Debug */,
-				E3904391836445DCA6D0049E /* Release */,
-				0FCE1E090ABC4A7E99318F92 /* MinSizeRel */,
-				9297632AA7CB441D99033A9A /* RelWithDebInfo */,
-			);
+			buildConfigurationList = 35C2AE4F8FF740D59ACF1233 /* Build configuration list for PBXProject "Membot" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			mainGroup = 7EEF17D818EA403FA8E6C160;
-			projectDirPath = .;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4FCBBA795574F519941714F;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38EB59E602DB48A781DCFCEE /* ALL_BUILD */,
-				286BED7B08654868A64F60F5 /* ZERO_CHECK */,
-				952F5D958EB34855AB71CCAB /* membot */,
+				A8365045E0AE4FC4A80857E3 /* ALL_BUILD */,
+				3A53D623011B429C84EA7AC0 /* ZERO_CHECK */,
+				0D40F3C1A7C643C5A0A9BFF5 /* membot */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0039B83B4CA54330AACDA05D /* CMake Rules */ = {
+		3613580412644C3A8383E3FC /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,25 +231,10 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/y0n1/Projects/cppnd-membot -f /Users/y0n1/Projects/cppnd-membot/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/y0n1/Projects/cppnd-membot -f /Users/y0n1/Projects/cppnd-membot/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all\n";
 			showEnvVarsInLog = 0;
 		};
-		9CC76CCDE6C841779A815E1E = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		D6DEF7D251C546649CA382B2 /* CMake Rules */ = {
+		49DDCC49CD834E4DBF387C95 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,61 +242,71 @@ exit 0";
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/y0n1/Projects/cppnd-membot -f /Users/y0n1/Projects/cppnd-membot/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		E27E7E86DEF644DCAE18A06F = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "make -C /Users/y0n1/Projects/cppnd-membot -f /Users/y0n1/Projects/cppnd-membot/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C5B5DB2098894EEF9ACA3CE3 /* Sources */ = {
+		B7184C15DE3C4C9A96B5BF44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90C1794CA8C4480A0B75798 /* /Users/y0n1/Projects/cppnd-membot/src/chatbot.cpp */,
-				E5352B43134E4D9F9ACAB882 /* /Users/y0n1/Projects/cppnd-membot/src/chatgui.cpp */,
-				F3A19623881D422FAFBFF2EA /* /Users/y0n1/Projects/cppnd-membot/src/chatlogic.cpp */,
-				35895E42B3644308A605923F /* /Users/y0n1/Projects/cppnd-membot/src/graphedge.cpp */,
-				A06612403F584E818FD076D3 /* /Users/y0n1/Projects/cppnd-membot/src/graphnode.cpp */,
+				5B7FFA1EA1D14F57B05E69E6 /* chatbot.cpp in Sources */,
+				224D5A5EBBB9461DB3A909CB /* chatgui.cpp in Sources */,
+				5FB7F70AB0D348CDBE388DB4 /* chatlogic.cpp in Sources */,
+				53D5D5C6A6DC422180EB0D9E /* graphedge.cpp in Sources */,
+				6C800675D7AA4D029F41EAA5 /* graphnode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59D1DBF7DF294E7A8A407F39 /* PBXTargetDependency */ = {
+		35BA80DEBB6D4DBEAC4E4674 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 286BED7B08654868A64F60F5 /* ZERO_CHECK */;
-			targetProxy = F13EE9E7E6CE4FCFB6234DEF /* PBXContainerItemProxy */;
+			target = 3A53D623011B429C84EA7AC0 /* ZERO_CHECK */;
+			targetProxy = ED174EEA360C40BFB7A7B1EC /* PBXContainerItemProxy */;
 		};
-		9FDD2EFB35A14CEE8870F221 /* PBXTargetDependency */ = {
+		6D3A9F57B28742F19629477D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 952F5D958EB34855AB71CCAB /* membot */;
-			targetProxy = C77DCD43109F4B17B87DB431 /* PBXContainerItemProxy */;
+			target = 0D40F3C1A7C643C5A0A9BFF5 /* membot */;
+			targetProxy = C8DF5074FE854DFCB7307CC1 /* PBXContainerItemProxy */;
 		};
-		EECDF3D5662D454C96AD2406 /* PBXTargetDependency */ = {
+		98B2E6FCFD804C588D3C87A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 286BED7B08654868A64F60F5 /* ZERO_CHECK */;
-			targetProxy = 031A2B9111404AF98B2A325A /* PBXContainerItemProxy */;
+			target = 3A53D623011B429C84EA7AC0 /* ZERO_CHECK */;
+			targetProxy = 5FAD960BDAB140608A09F6C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FED874D91374197A0257C9B /* MinSizeRel */ = {
+		05ACD93A598C49A18A7B1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		1A75147530C64FFFBE4F12A4 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -311,79 +315,69 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'_FILE_OFFSET_BITS=64'",
+					WXUSINGDLL,
+					__WXMAC__,
+					__WXOSX__,
+					__WXOSX_COCOA__,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu-3.0",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = membot;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0 /usr/local/include/wx-3.0";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
-		323B25E5D9CA49C4849E41A9 /* MinSizeRel */ = {
+		203DDA0A91E04CF7A7947FC6 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot/build";
 			};
-			name = MinSizeRel;
-		};
-		39465E5DA14D4747BEF8F732 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = membot;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
 			name = RelWithDebInfo;
 		};
-		517BD1FB56E445F0B0DE6362 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		526C03FEB612467C80614D43 /* Debug */ = {
+		22DE387C8CDB4D3BA8F27905 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -392,14 +386,14 @@ exit 0";
 			};
 			name = Debug;
 		};
-		5AD4C1DE0B874CD89DC0EC24 /* Release */ = {
+		43E0EA92B1604344B3F69100 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -408,18 +402,23 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		5C3E96B4520B4F1D9B571356 /* RelWithDebInfo */ = {
+		6ADE073AE4444600AE126DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -428,31 +427,16 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6196B34AF2014AF391FC287F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
-		718EEC805E02441AB055B9FD /* Release */ = {
+		7BB059CC041E431CBBC18ED4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -461,36 +445,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		728E425EA1344D75A563325D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		7AF6C8C98F0642C7B28C1602 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot/build";
-			};
-			name = RelWithDebInfo;
-		};
-		9AB960F8433541298FDD30FA /* Release */ = {
+		7F924AFB7C5B4195B0456A8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -499,51 +454,76 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'_FILE_OFFSET_BITS=64'",
+					WXUSINGDLL,
+					__WXMAC__,
+					__WXOSX__,
+					__WXOSX_COCOA__,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu-3.0",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = membot;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0 /usr/local/include/wx-3.0";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
-		AA67267AEB7642E3BEB556A6 /* MinSizeRel */ = {
+		7FE22693745247BB9EC079FA /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot/build";
 			};
 			name = MinSizeRel;
 		};
-		B4687CEB570B4F9382AEDAFA /* Debug */ = {
+		889876EC37AD40DBBD38D0ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -552,44 +532,48 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
-			name = Debug;
+			name = Release;
 		};
-		BB933F2436DA4AA3A1AE1253 /* Debug */ = {
+		AF2209046E424BB28BDE1895 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = membot;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
-		C7D2DDD240B04BB4B16C0E4A /* Debug */ = {
+		B7A8C223E0E34577BDF5AA34 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -598,58 +582,234 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		DF17137601AE4B209AE1AE02 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E836649A2EA54FBCA72B5A6B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		FBE77647062944AF9BD13AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'_FILE_OFFSET_BITS=64'",
+					WXUSINGDLL,
+					__WXMAC__,
+					__WXOSX__,
+					__WXOSX_COCOA__,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu-3.0",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = membot;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0 /usr/local/include/wx-3.0";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
+		};
+		FFBBD3EAEF0E4ED38F00636F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'_FILE_OFFSET_BITS=64'",
+					WXUSINGDLL,
+					__WXMAC__,
+					__WXOSX__,
+					__WXOSX_COCOA__,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu-3.0",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = membot;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/y0n1/Projects/cppnd-membot";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0 /usr/local/include/wx-3.0";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2928FE69DB7445DCB5F47CBF /* Build configuration list for PBXNativeTarget "membot" */ = {
+		2F9F87EAE1EA4D928322DB92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB933F2436DA4AA3A1AE1253 /* Debug */,
-				9AB960F8433541298FDD30FA /* Release */,
-				0FED874D91374197A0257C9B /* MinSizeRel */,
-				39465E5DA14D4747BEF8F732 /* RelWithDebInfo */,
+				05ACD93A598C49A18A7B1C2C /* Debug */,
+				6ADE073AE4444600AE126DF4 /* Release */,
+				B7A8C223E0E34577BDF5AA34 /* MinSizeRel */,
+				43E0EA92B1604344B3F69100 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		92E6584DBE244425A8B2FE59 /* Build configuration list for PBXProject "Membot" */ = {
+		35C2AE4F8FF740D59ACF1233 /* Build configuration list for PBXProject "Membot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				526C03FEB612467C80614D43 /* Debug */,
-				718EEC805E02441AB055B9FD /* Release */,
-				323B25E5D9CA49C4849E41A9 /* MinSizeRel */,
-				7AF6C8C98F0642C7B28C1602 /* RelWithDebInfo */,
+				22DE387C8CDB4D3BA8F27905 /* Debug */,
+				7BB059CC041E431CBBC18ED4 /* Release */,
+				7FE22693745247BB9EC079FA /* MinSizeRel */,
+				203DDA0A91E04CF7A7947FC6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F07F06DB0AE644329090BAE9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		9BFF73F7C3944CFC9E044E45 /* Build configuration list for PBXNativeTarget "membot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4687CEB570B4F9382AEDAFA /* Debug */,
-				6196B34AF2014AF391FC287F /* Release */,
-				AA67267AEB7642E3BEB556A6 /* MinSizeRel */,
-				728E425EA1344D75A563325D /* RelWithDebInfo */,
+				FBE77647062944AF9BD13AF5 /* Debug */,
+				7F924AFB7C5B4195B0456A8C /* Release */,
+				1A75147530C64FFFBE4F12A4 /* MinSizeRel */,
+				FFBBD3EAEF0E4ED38F00636F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FE3D3B46BA164DB7BAA2EE18 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		F830216B0B2D4553A98C22A5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7D2DDD240B04BB4B16C0E4A /* Debug */,
-				5AD4C1DE0B874CD89DC0EC24 /* Release */,
-				517BD1FB56E445F0B0DE6362 /* MinSizeRel */,
-				5C3E96B4520B4F1D9B571356 /* RelWithDebInfo */,
+				AF2209046E424BB28BDE1895 /* Debug */,
+				889876EC37AD40DBBD38D0ED /* Release */,
+				E836649A2EA54FBCA72B5A6B /* MinSizeRel */,
+				DF17137601AE4B209AE1AE02 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 85DA75369B3B43C49FB623A0 /* Project object */;
+	rootObject = 14C58236698F43BB94EAFF3A /* Project object */;
 }
